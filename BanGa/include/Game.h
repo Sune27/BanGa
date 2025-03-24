@@ -10,6 +10,8 @@ public:
     ~Game();
     bool init();
     void close();
+    bool loadImage();
+
 private:
     SDL_Window* window;
     SDL_Renderer* renderer;
